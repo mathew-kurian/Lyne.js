@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html style="height:100%;width:100%;">
+
+    <head>
+        <link rel='stylesheet' href='http://cdn.turredo.com/?dir=stylesheets&files=prototype.typography.css&mime=text/css' type='text/css'>
+        <script src="http://code.jquery.com/jquery-2.0.0b2.js"></script>
+        <script src="../src/Lyne.js"></script>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+        </style>
+    </head>
+
+    <body style = "background: #090909 center center no-repeat;background-size:100% 100%;width:100%;height:100%;position:absolute;">
+        <div style = "background:#111;position:absolute;left:5%;top:5%;bottom:5%;right:5%;z-index:10;box-shadow:0 1px 10px #000, inset 0 0px 0px 1px #222;border-radius:4px;">
+            <canvas id="myCanvas1" width="800" height="800"></canvas>
+        </div>
+    </body>
+    <script>
+      var a = new Lyne.Graph([ 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0 , 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0 ], document.getElementById('myCanvas1'))
+    </script>
+
+</html>
