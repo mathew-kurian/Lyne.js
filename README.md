@@ -1,4 +1,4 @@
-![lynejs logo](http://cdn.turredo.com/Github/Lyne.js/logo.png)
+![lynejs logo](http://cdn.turredo.com/github/Lyne.js/logo.png)
 =======
 **Dynamic HTML5 Line Graph W/ Fluid Animation**
 Start Graphing
