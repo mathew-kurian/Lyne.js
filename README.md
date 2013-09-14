@@ -3,7 +3,7 @@
 **Dynamic HTML5 Line Graph W/ Fluid Animation**
 Start Graphing
 =======
-Fast, no-hassle setup.
+Fast, no-hassle setup. Powerful, smooth, and animated. Uses pure Javascript and canvas without SVG.
 
 ```js
 
