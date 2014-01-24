@@ -1,6 +1,10 @@
 ![lynejs logo](http://cdn.turredo.com/github/Lyne.js/logo.png)
 =======
 **Dynamic HTML5 Line Graph W/ Fluid Animation**
+Live Examples
+=======
+http://bluejamesbond.github.io/Lyne.js/
+
 Start Graphing
 =======
 Fast, no-hassle setup. Powerful, smooth, and animated. Uses pure Javascript and canvas without SVG.
