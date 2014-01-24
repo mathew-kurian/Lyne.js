@@ -1,0 +1,13 @@
+body { background: #000; width: 100%; -webkit-backface-visibility: hidden; background: #FFF;  }
+html { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+.animator { -webkit-transition: all 152ms ease-out; transition: all 152ms ease-out; -ms-transition: all 152ms ease-out; -moz-transition: all 152ms ease-out; -webkit-transform: translate3d(0,0,0); -ms-transform: translate3d(0,0,0); -moz-transform: translate3d(0,0,0); transform: translate3d(0,0,0); -webkit-backface-visibility: hidden;}
+.button { height: 45px; background: #BBB; color: #000; font-size: 11px; text-align: center; letter-spacing: 2px; font-weight: 500px; line-height: 45px; width: 160px; border-radius: 5px; width: 150px; display: inline-block; margin-right: 10px; cursor: pointer;}
+td { background: #EEE; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; display: table-cell; vertical-align: middle; text-align: center;}
+th { color: #FFF; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; background: #000; vertical-align: middle; text-align: center;height:50px;border-right:2px solid #333;}
+.assign1 {}
+.assign1 td, .assign1 th { color: #FFF; font-size:12px;}
+.assign1 th { position:relative; z-index:999; font-weight:700; background: #34495e; border-right:1px solid #000;font-size:15px;height:50px;border-bottom:1px solid #000;border-top:1px solid #000;box-shadow:inset 1px 1px 0 rgba(255,255,255,0.2);}
+th::last-child { border-right-width:0px;}
+.header {height: 80px; height: 100%; background: #16a085; }
+.header .text { height: 80px; height: 100%; line-height: 81px; font-size: 12px; letter-spacing: 1px; color: #FFF; text-indent: 30px;}
+.header .text span { height: 100%; line-height: 81px; font-size: 11px; letter-spacing: 1px; color: #FFF; text-indent: 30px; text-transform: uppercase; text-align: center; font-weight: 300; color: #FFF; float: right; margin-right: 30px; }
