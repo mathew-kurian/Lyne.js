@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html style="height:100%;width:100%;">
+
+    <head>
+        <link rel='stylesheet' href='stylesheets/prototype.typography.css' type='text/css'>
+        <script src="http://code.jquery.com/jquery-2.0.0b2.js"></script>
+        <script src="src/Lyne.js"></script>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+        </style>
+    </head>
+
+    <body style = "background: #090909 center center no-repeat;background-size:100% 100%;width:100%;height:100%;position:absolute;">
+    <div style = "position:absolute;top:0;right:0;left:0;height:50px;">
+        <div style = "margin:10px;height:30px;width:100px;font-family:'Museo Sans'; color: #FFF; border:3px solid #FFF; font-size:10px;letter-spacing:2px;line-height:30px;border-radius:5px;text-align:center;font-weight:500;display:inline-block;cursor:pointer;" onclick = "javascript:forwardTo(0);">SAMPLE 1</div>
+        <div style = "margin:10px;height:30px;width:100px;font-family:'Museo Sans'; color: #FFF; border:3px solid #FFF; font-size:10px;letter-spacing:2px;line-height:30px;border-radius:5px;text-align:center;font-weight:500;display:inline-block;cursor:pointer;" onclick = "javascript:forwardTo(1);">SAMPLE 2</div>
+        <div style = "margin:10px;height:30px;width:100px;font-family:'Museo Sans'; color: #FFF; border:3px solid #FFF; font-size:10px;letter-spacing:2px;line-height:30px;border-radius:5px;text-align:center;font-weight:500;display:inline-block;cursor:pointer;opacity:0.5;" onclick = "javascript:forwardTo(2);">SAMPLE 3</div>
+        <div style = "margin:10px;height:30px;width:100px;font-family:'Museo Sans'; color: #FFF; border:3px solid #FFF; font-size:10px;letter-spacing:2px;line-height:30px;border-radius:5px;text-align:center;font-weight:500;display:inline-block;cursor:pointer;" onclick = "javascript:forwardTo(3);">SAMPLE 4</div>
+      </div>
+      <script>
+
+      var urls = [ "http://bluejamesbond.github.io/Lyne.js/index.html", 
+                   "http://bluejamesbond.github.io/Lyne.js/2.html",
+                   "http://bluejamesbond.github.io/Lyne.js/3.html",
+                   "http://bluejamesbond.github.io/Lyne.js/4.html" ];
+
+      function forwardTo(index)
+      {
+        window.location.href = urls[index];
+      }
+
+      </script>
+
+      <div style = "position:absolute;top:50px;bottom:0;width:100%;">
+        <div style = "background:#111;position:absolute;left:5%;top:5%;bottom:5%;right:5%;z-index:10;box-shadow:0 1px 10px #000, inset 0 0px 0px 1px #222;border-radius:4px;">
+            <canvas id="myCanvas1" width="800" height="800"></canvas>
+        </div>
+        </div>
+    </body>
+    <script>
+      var a = new Lyne.Graph([ 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0 , 5000 * Math.random() << 0, 5000 * Math.random() << 0, 5000 * Math.random() << 0 ], document.getElementById('myCanvas1'))
+    </script>
+
+</html>
