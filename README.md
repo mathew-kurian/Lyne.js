@@ -13,7 +13,7 @@ Fast, no-hassle setup. Powerful, smooth, and animated. Uses pure Javascript and 
 
 // Points to be plotted
 var dataset = [ 500, 300, 100, 200, 800 ];
-var canvas = ocument.getElementById( 'myCanvas1' );
+var canvas = document.getElementById( 'myCanvas1' );
 
 // Initialize basic graph graph
 var lyne = new Lyne.Graph( dataset, canvas );
